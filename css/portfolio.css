@@ -1,0 +1,23 @@
+h1, h2 {
+    font-family: 'Arapey', serif; 
+    margin-left: 2vw;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.projekter_overskrift{
+  font-size: 60px;
+  padding-top: 100px;
+}
+
+
+@media screen and (max-width: 4500px){
+.web_billeder {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    justify-items: center;
+    gap: 3em;
+  }
+  }
