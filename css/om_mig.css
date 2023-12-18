@@ -1,11 +1,3 @@
-h1 {
-    font-family: 'Arapey', serif; 
-    margin-left: 2vw;
-    padding-top: 60px;
-    padding-bottom: 20px;
-    font-size: 30px;
-}
-
 .overskrift_mig, .overskrift_hvem{
   font-size: 50px;
   padding-top: 200px;
@@ -23,7 +15,7 @@ h1 {
 }
 
 .billede_rose, .billede_rosehund{
-    padding-right: 20%;
+    padding-left: 2%;
     transform: scale(0.8); /* Juster dette tal for at ændre størrelsen (0.8 betyder 80% af originalstørrelsen) */
 }
 

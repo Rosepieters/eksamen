@@ -1,8 +1,8 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
 
   .overskrift_logo{
     font-family: 'Arapey', serif;
@@ -10,22 +10,27 @@
     text-align: center;
     margin-top: 10px;
     padding-bottom: 70px;
-}
-  
-  img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  
-  body {
-    background-color: rgba(201, 200, 195, 0.611);
   }
   
 
+  body {
+    background-color: rgba(201, 200, 195, 0.611);
+  }
+
   h1 {
     font-family: 'Arapey', serif; 
-  }
+    margin-left: 20px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    }
+
+    h2{
+      font-family: 'Arapey', serif;
+      margin-left: 20px;
+      font-size: 20px; 
+    }
+
 
   p {
     font-family: "Assistant", sans-serif;
@@ -33,8 +38,15 @@
     padding-top: 12px;
     line-height: 1.5;
     color: #333;
-}
+    }
 
+  
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 /*NAV*/
 nav ul {
@@ -51,15 +63,18 @@ nav li {
   font-family: 'Arapey', serif;
   text-decoration: none;
 }
+
 nav a {
   color: #333;
   font-size: 20px;
   text-decoration: none;
   display: inline-block;
 }
+
 nav a:link {
   text-decoration: none;
 }
+
 nav a:hover,
 nav a:active,
 nav li.active a {
