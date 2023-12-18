@@ -1,5 +1,29 @@
 .studiestartsproven_overskrift{
-    font-size: 60px;
-    padding-top: 100px;
-  }
-    
+  font-size: 60px;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+  
+.sec_emne{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 80px;
+  grid-column-gap: 50px;
+}
+
+.sec_opgave{
+  padding-top: 30px;
+  padding-left: 35px;
+}
+
+.div_box {
+  border: 1px solid #ccc !important;
+  border-radius: 20px;
+  padding: 36px;
+  width: 200px; /* Juster dette efter behov for at ændre bredden af div_box */
+  height: 200px; /* Gør højden den samme som bredden for at opnå en kvadratisk form */
+  margin-top: 24px;
+  border-color: rgb(240, 238, 234);
+  background-color: rgb(240, 238, 234);
+}
+
