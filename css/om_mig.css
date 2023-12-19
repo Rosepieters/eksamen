@@ -11,18 +11,18 @@
 
 .tekst_hvem{
   padding-top: 30px;
-  line-height: 1.5;
 }
 
 .billede_rose, .billede_rosehund{
-  padding-left: 2%;
+  padding-left: 19%;
+  padding-right: 19%;
   transform: scale(0.8); /* Juster dette tal for at ændre størrelsen (0.8 betyder 80% af originalstørrelsen) */
 }
 
 .om_mig {
   margin-top: 50px;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 65px;
+  padding-bottom: 65px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   text-align: center;
