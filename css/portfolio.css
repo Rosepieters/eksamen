@@ -1,7 +1,21 @@
+h1 {
+  font-family: 'Arapey', serif; 
+  margin-left: 20px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+
 .projekter_overskrift{
   font-size: 60px;
   padding-top: 100px;
 }
+
+.foto_1{
+  padding-right: 877px;
+  margin: 20px;
+}
+
   
 .fotos_siden {
   display: grid;
@@ -13,10 +27,48 @@
   padding-right: 300px;
 }
 
-.foto_1{
-  padding-right: 877px;
-  margin: 20px;
+/* Image hover + tekst */
+.image_container {
+  position: relative;
+  overflow: hidden;
 }
+
+.zoom_content {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s, opacity 0.3s; /* Overgangseffekt på skala og gennemsigtighed */
+}
+
+.read_more_text {
+  font-family: 'Arapey', serif; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Juster farven efter dine præferencer */
+  font-size: 35px; /* Juster størrelsen efter dine præferencer */
+  opacity: 0;
+  transition: opacity 0.3s; /* Overgangseffekt på gennemsigtighed */
+}
+
+.image_container:hover .zoom_content {
+  transform: scale(1.1); /* Ændrer skalaen ved hover (1.1 betyder en 10% zoom) */
+  opacity: 0.8; /* Ændrer gennemsigtigheden ved hover */
+}
+
+.image_container:hover .read_more_text {
+  opacity: 1; /* Gør teksten synlig ved hover */
+}
+
+.image_container img {
+  width: 100%; /* For at sikre, at billedet udfylder containeren */
+  height: auto;
+  display: block;
+  transition: opacity 0.3s;
+}
+/* Image hover + tekst */
 
 
 @media screen and (max-width: 4500px){

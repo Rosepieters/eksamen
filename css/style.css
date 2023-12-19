@@ -19,10 +19,6 @@ body {
 
 h1 {
   font-family: 'Arapey', serif; 
-  margin-left: 20px;
-  padding-top: 60px;
-  padding-bottom: 20px;
-  font-size: 30px;
 }
 
 h2{
@@ -39,6 +35,17 @@ p {
   line-height: 2;
   color: #333;
 }
+
+/* link */
+a {
+  text-decoration: none; /* Fjern understregning */
+  color: inherit; /* Arver farven fra det omkringliggende element (samme farve som normal tekst) */
+}
+
+a:hover {
+  color: inherit; /* Ingen farveændring ved hover */
+}
+/* link */
 
   
 img {

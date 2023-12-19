@@ -1,3 +1,7 @@
+h1{
+  padding-top: 23px;
+}
+
 .studiestartsproven_overskrift{
   font-size: 60px;
   padding-top: 100px;
@@ -7,7 +11,8 @@
 .sec_emne{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   grid-column-gap: 10px;
   justify-content: space-evenly;
 }
@@ -19,7 +24,7 @@
 }
 
 .sec_opgave{
-  padding-left: 140px;
+  padding-left: 200px;
 }
 
 .div_box {
@@ -60,6 +65,7 @@
 }
 
 
+/* Link der fører videre */
 .link_box {
   text-decoration: none; /* Fjerner understregning */
   display: inline-block; /* Gør linket til et blok-element, så styling som margin og padding fungerer korrekt */
@@ -67,4 +73,11 @@
   color: #333; /* Tekstfarve */
   font-size: 20px;
   padding-top: 15px;
+  border-bottom: 2px solid transparent; /* Streg i bunden, starter som gennemsigtig */
+  transition: border-bottom 0.3s; /* Overgangseffekt på stregen */
 }
+
+.link_box:hover {
+  border-bottom: 2px solid #333; /* Viser stregen ved hover */
+}
+/* Link der fører videre */
