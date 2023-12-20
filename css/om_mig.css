@@ -7,12 +7,6 @@ h1 {
 }
 
 /* logo */
-.overskrift_mig, .overskrift_hvem{
-  font-size: 50px;
-  padding-top: 200px;
-  padding-left: 60px;
-}
-
 a {
   text-decoration: none; /* Fjern understregning */
   color: inherit; /* Arver farven fra det omkringliggende element (samme farve som normal tekst) */
@@ -23,21 +17,10 @@ a:hover {
 }
 /* logo */
 
-.mit_navn{
-  font-weight: lighter;
-  padding-top: 10px;
-  font-size: 45px;
-}
-
-.tekst_hvem{
-  padding-top: 30px;
-  padding-left: 65px;
-}
-
-.billede_rose, .billede_rosehund{
-  padding-left: 10%;
-  padding-right: 10%;
-  transform: scale(0.8); /* Juster dette tal for at ændre størrelsen (0.8 betyder 80% af originalstørrelsen) */
+.overskrift_mig, .overskrift_hvem{
+  font-size: 50px;
+  padding-top: 200px;
+  padding-left: 60px;
 }
 
 .om_mig {
@@ -54,6 +37,19 @@ a:hover {
   background-color: #ffffff;
 }
 
+.mit_navn{
+  font-weight: lighter;
+  padding-top: 10px;
+  font-size: 45px;
+  padding-left: 45px;
+}
+
+.billede_rose, .billede_rosehund{
+  padding-left: 10%;
+  padding-right: 10%;
+  transform: scale(0.8); /* Juster dette tal for at ændre størrelsen (0.8 betyder 80% af originalstørrelsen) */
+}
+
 .rose_skolen{
   padding-top: 80px;
   padding-bottom: 80px;
@@ -66,7 +62,11 @@ a:hover {
   background-color: rgba(222, 221, 217, 0.611);
 }
 
-.cv_overskrift {
+.tekst_hvem{
+  padding-top: 30px;
+  padding-left: 65px;
+}
+.cv_overskrift, .uddannelse_overskrift {
   padding-left: 30px;
 }
 

@@ -12,7 +12,6 @@
   padding-bottom: 70px;
 }
   
-
 body {
   background-color: rgba(201, 200, 195, 0.611);
 }
@@ -26,7 +25,6 @@ h2{
   margin-left: 20px;
   font-size: 23px; 
 }
-
 
 p {
   font-family: "Assistant", sans-serif;
@@ -87,21 +85,39 @@ nav li.active a {
   text-decoration: underline;
 }
 /*NAV*/
-  
 
-@media (min-width: 800px) {
-  footer {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-evenly;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
+/*Footer*/
+.navn_footer{
+  padding-top: 20px;
 }
 
+.insta{
+  padding-top: 3.5px;
+}
+
+.mail{
+  padding-top: 5px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  display: flex;
+  padding-top: 80px;
+}
   
+.icons a {
+  margin-right: 7px; /* Fjern margen mellem ikonerne */
+}
+  
+.icons img {
+  width: 35px; /* Juster bredden på ikonerne efter behov */
+}
+/*Footer*/
+  
+
 /*BURGER-MENU*/
 .burger-menu {
   display: none;
@@ -145,6 +161,17 @@ nav li.active a {
 }
 /*BURGER-MENU*/
 
+@media (min-width: 800px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
   
 @media (max-width: 800px) {
   footer {
@@ -182,36 +209,7 @@ nav li.active a {
 }
   
 
-/*Footer*/
-.navn_footer{
-  padding-top: 20px;
-}
 
-.insta{
-  padding-top: 3.5px;
-}
-
-.mail{
-  padding-top: 5px;
-}
-
-.icons {
-  display: flex;
-  justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 5px;
-  display: flex;
-  padding-top: 80px;
-}
-  
-.icons a {
-  margin-right: 7px; /* Fjern margen mellem ikonerne */
-}
-  
-.icons img {
-  width: 35px; /* Juster bredden på ikonerne efter behov */
-}
-/*Footer*/
   
 
  

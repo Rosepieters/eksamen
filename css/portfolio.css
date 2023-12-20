@@ -6,14 +6,9 @@ h1 {
   font-size: 30px;
 }
 
-.grid_1{
+.overskrift{
   padding-left: 100px;
-padding-bottom: 80px;
-}
-
-.tema_2, .tema_3, .tema_4, .tema_5, .tema_6 {
-  padding-left: 100px;
-  padding-bottom: 45px;
+  padding-bottom: 80px;
 }
 
 .projekter_overskrift{
@@ -21,13 +16,17 @@ padding-bottom: 80px;
   padding-top: 100px;
 }
 
-.foto_1{
+.tema_2, .tema_3, .tema_4, .tema_5, .tema_6 {
+  padding-left: 100px;
+  padding-bottom: 45px;
+}
+
+.grid_1{
   padding-right: 877px;
   margin: 20px;
 }
-
   
-.fotos_siden {
+.grid_1_1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   justify-content: flex-end; /* Justerer indholdet til højre */

@@ -16,18 +16,19 @@ h1{
   grid-column-gap: 10px;
   justify-content: space-evenly;
 }
+
+.sec_opgave{
+  padding-left: 200px;
+}
   
+  
+/* Info boks */
 .sec_rolle{
   justify-content: center;
   align-items: center;
   padding-left: 250px;
 }
-  
-.sec_opgave{
-  padding-left: 200px;
-}
-  
-/* Info boks */
+
 .div_box {
   border: 1px solid #ccc !important;
   border-radius: 20px;
@@ -49,10 +50,6 @@ padding-bottom: 10px;
 .p_box{
 font-size: 16px;
   line-height: 1.5;
-}
-
-.box_opgave{
-  padding-top: 50px;
 }
 /* Info boks */
   
@@ -89,9 +86,7 @@ font-size: 16px;
 }
 /* Link der fører videre */
 
-
-
-.foto_krea{
+.krea_foto{
   padding-top: 37px;
   padding-left: 19%;
   padding-right: 19%;
