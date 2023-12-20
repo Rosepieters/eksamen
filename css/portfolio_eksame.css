@@ -1,0 +1,75 @@
+h1{
+    padding-top: 23px;
+  }
+  
+  .portfolio_site_overskrift{
+    font-size: 60px;
+    padding-top: 100px;
+    padding-left: 100px;
+  }
+    
+  .sec_emne{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    grid-column-gap: 10px;
+    justify-content: space-evenly;
+  }
+  
+  .sec_rolle{
+    justify-content: center;
+    align-items: center;
+    padding-left: 250px;
+  }
+  
+  .sec_opgave{
+    padding-left: 200px;
+  }
+  
+  .div_box {
+    border: 1px solid #ccc !important;
+    border-radius: 20px;
+    padding: 36px;
+    width: 265px; /* Juster dette efter behov for at ændre bredden af div_box */
+    height: 250px; /* Gør højden den samme som bredden for at opnå en kvadratisk form */
+    margin-top: 24px;
+    padding-left: 60px;
+    border-color: rgb(240, 238, 234);
+    background-color: rgb(240, 238, 234);
+  }
+  
+  .box_opgave{
+    padding-top: 50px;
+  }
+  
+  .farve_gestaltlove {
+    margin-top: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: grid;
+    gap: 60px;
+    padding-left: 200px;  
+    padding-right: 550px;
+    border-style: solid;
+    border-color: #ffffff;
+    background-color: #ffffff;
+  }
+    
+  
+  /* Link der fører videre */
+  .link_box {
+    text-decoration: none; /* Fjerner understregning */
+    display: inline-block; /* Gør linket til et blok-element, så styling som margin og padding fungerer korrekt */
+    color: #333; /* Tekstfarve */
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 4px;
+    border-bottom: 2px solid transparent; /* Streg i bunden, starter som gennemsigtig */
+    transition: border-bottom 0.3s; /* Overgangseffekt på stregen */
+  }
+  
+  .link_box:hover {
+    border-bottom: 2px solid #333; /* Viser stregen ved hover */
+  }
+  /* Link der fører videre */

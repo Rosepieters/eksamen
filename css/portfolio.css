@@ -6,6 +6,10 @@ h1 {
   font-size: 30px;
 }
 
+.grid_1, .tema_2, .tema_3, .tema_4, .tema_5, .tema_6 {
+  padding-left: 100px;
+}
+
 .projekter_overskrift{
   font-size: 60px;
   padding-top: 100px;
