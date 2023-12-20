@@ -16,18 +16,18 @@ h1{
   grid-column-gap: 10px;
   justify-content: space-evenly;
 }
-  
+
+.sec_opgave{
+  padding-left: 200px;
+}
+
+/* Info boks */
 .sec_rolle{
   justify-content: center;
   align-items: center;
   padding-left: 250px;
 }
-  
-.sec_opgave{
-  padding-left: 200px;
-}
-  
-/* Info boks */
+
 .div_box {
   border: 1px solid #ccc !important;
   border-radius: 20px;
@@ -57,7 +57,7 @@ font-size: 16px;
 /* Info boks */
   
 
-.video {
+.om_video {
   margin-top: 50px;
   padding-top: 80px;
   padding-bottom: 80px;
@@ -71,8 +71,7 @@ font-size: 16px;
   background-color: #ffffff;
 }
   
-  
-/* Link der fører videre */
+/* Link til videosite*/
 .link_box {
   text-decoration: none; /* Fjerner understregning */
   display: inline-block; /* Gør linket til et blok-element, så styling som margin og padding fungerer korrekt */
@@ -90,11 +89,11 @@ font-size: 16px;
 /* Link der fører videre */
 
 
-
 /* Video */
 .passion_video{
   padding-top: 82px;
 }
+
 video {
   width: 100%;
   height: auto;
