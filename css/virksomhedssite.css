@@ -1,5 +1,126 @@
+h1{
+  padding-top: 23px;
+}
+  
 .virksomhedssite_overskrift{
-    font-size: 60px;
-    padding-top: 100px;
-  }
+  font-size: 60px;
+  padding-top: 100px;
+  padding-left: 100px;
+}
     
+.sec_emne{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  grid-column-gap: 10px;
+  justify-content: space-evenly;
+}
+  
+.sec_rolle{
+  justify-content: center;
+  align-items: center;
+  padding-left: 250px;
+}
+  
+.sec_opgave{
+  padding-left: 200px;
+}
+  
+/* Info boks */
+.div_box {
+  border: 1px solid #ccc !important;
+  border-radius: 20px;
+  padding: 36px;
+  width: 265px; /* Juster dette efter behov for at ændre bredden af div_box */
+  height: 250px; /* Gør højden den samme som bredden for at opnå en kvadratisk form */
+  margin-top: 24px;
+  padding-left: 30px;
+  border-color: rgb(240, 238, 234);
+  background-color: rgb(240, 238, 234);
+}
+
+.h2_box{
+font-size: 22px;
+text-decoration: underline;
+padding-bottom: 10px;
+}
+
+.p_box{
+font-size: 16px;
+  line-height: 1.5;
+}
+
+.box_opgave{
+  padding-top: 50px;
+}
+/* Info boks */
+  
+
+.process {
+  margin-top: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 45px;
+  padding-left: 100px;  
+  padding-right: 100px;
+  border-style: solid;
+  border-color: #ffffff;
+  background-color: #ffffff;
+}
+  
+  
+/* Link der fører videre */
+.link_box {
+  text-decoration: none; /* Fjerner understregning */
+  display: inline-block; /* Gør linket til et blok-element, så styling som margin og padding fungerer korrekt */
+  color: #333; /* Tekstfarve */
+  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 4px;
+  border-bottom: 2px solid transparent; /* Streg i bunden, starter som gennemsigtig */
+  transition: border-bottom 0.3s; /* Overgangseffekt på stregen */
+}
+  
+.link_box:hover {
+  border-bottom: 2px solid #333; /* Viser stregen ved hover */
+}
+/* Link der fører videre */
+
+
+/* skiftende billeder */
+.skiftende_billeder {
+  display: flex;
+  width: 100%;
+  height: 40%;
+  position: relative;
+  overflow: hidden;
+  padding-top: 80px;
+  padding-left: 100px;
+  padding-right: 500px;
+}
+
+.virksomhed_fotos {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  animation-duration: 40s; /* Juster varigheden baseret på antallet af billeder for at fuldføre et fuldt diasshow */
+  animation-name: change2;
+  animation-iteration-count: infinite;
+  opacity: 0;
+}
+
+@keyframes change2 {
+  0%, 33.333%, 66.666%, 100% {
+    opacity: 0;
+    z-index: 1;
+  }
+  16.666%, 50%, 83.333% {
+    opacity: 1;
+    z-index: 2;
+  }
+}
+/* skiftende billeder */
