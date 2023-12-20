@@ -27,6 +27,8 @@ h1{
   padding-left: 200px;
 }
 
+
+/* Info boks */
 .div_box {
   border: 1px solid #ccc !important;
   border-radius: 20px;
@@ -34,14 +36,26 @@ h1{
   width: 265px; /* Juster dette efter behov for at ændre bredden af div_box */
   height: 250px; /* Gør højden den samme som bredden for at opnå en kvadratisk form */
   margin-top: 24px;
-  padding-left: 60px;
+  padding-left: 30px;
   border-color: rgb(240, 238, 234);
   background-color: rgb(240, 238, 234);
+}
+
+.h2_box{
+font-size: 22px;
+text-decoration: underline;
+padding-bottom: 10px;
+}
+
+.p_box{
+font-size: 16px;
+  line-height: 1.5;
 }
 
 .box_opgave{
   padding-top: 50px;
 }
+/* Info boks */
 
 
 .typografi {
